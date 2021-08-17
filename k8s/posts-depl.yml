@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: posts
-          image: edunicastro/posts:0.0.1
+          image: edunicastro/posts
           resources:
             limits:
               memory: "128Mi"
