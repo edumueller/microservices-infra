@@ -27,9 +27,7 @@ metadata:
 spec:
   selector:
     app: query
-    type: ClusterIp
   ports:
     - name: query
       protocol: TCP
       port: 4002
-      targetPort: 4002

@@ -27,9 +27,7 @@ metadata:
 spec:
   selector:
     app: event-bus
-    type: ClusterIp
   ports:
     - name: event-bus
       protocol: TCP
       port: 4005
-      targetPort: 4005
