@@ -7,3 +7,11 @@
 3. Build the image
 4. Push the image to docker hub
 5. Run the command `kubectl rollout restart deployment [depl_name]`
+
+## Configuring nginx-ingress
+
+https://kubernetes.github.io/ingress-nginx/deploy/#provider-specific-steps
+
+In Windows and Mac, run the following command (see the above link for more info):
+
+- `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.48.1/deploy/static/provider/cloud/deploy.yaml`
