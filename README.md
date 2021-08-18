@@ -23,3 +23,10 @@ Change your dev environment's hosts file to redirect requests made to posts.com 
 Add the following line to your /etc/hosts file:
 
 `127.0.0.1 posts.com`
+
+# Skaffold
+
+- Automates many tasks in a Kubernetes dev environment
+- Makes it really easy to update code in a running pod
+- Makes it really easy to create/delete all objects tied to a project at once
+- [skaffold.dev](skaffold.dev)
